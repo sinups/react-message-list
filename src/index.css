@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+ul {
+  list-style: none;
+}
+.sender {
+  background: #e7f6ff;
+  text-align: right;
+  margin: 5px 0px;
+}
+.mine {
+  background: #f3f4f7;
+  text-align: left;
+}
+.mine,
+.sender {
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 14px;
+}
